@@ -13,13 +13,13 @@ function Projects() {
           src={education}
           link="https://github.com/TahsanX/Study-Help"
           h3="Study Help"
-          p="Education Platform and Community and Q&A App"
+          p="Education Platform and Q&A App"
         />
         <ProjectCard
           src={lab_equipment}
           link="https://github.com/TahsanX/Equipment_Management"
           h3="Lab Equipment Management"
-          p="Lab Equipment Management and Cost and Time Tracking System"
+          p="Lab Equipment Cost and Time Tracking"
         />
         <ProjectCard
           src={passop}
