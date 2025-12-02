@@ -5,7 +5,7 @@ import moon from "../../assets/moon.svg";
 import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import { useTheme } from "../../common/ThemeContext";
-import Tahsan_Zahid from '../../assets/Tahsan_Zahid.pdf';
+import Tahsan_Zahid from '../../assets/Tahsan Zahid.pdf';
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
