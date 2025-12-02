@@ -68,6 +68,8 @@
 }
 
 .description {
+  display: flex;
+  text-align: center;
   max-width: 24ch;
 }
 
@@ -96,5 +98,11 @@
       max-width: 400px;
       width: 400px;
     }
+  }
+}
+@media (max-width: 1024px) {
+  .description {
+    max-width: 100%;
+    margin: 10px;
   }
 }
