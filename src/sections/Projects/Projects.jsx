@@ -2,6 +2,7 @@ import styles from './ProjectsStyles.module.css';
 import education from '../../assets/education.png';
 import lab_equipment from '../../assets/lab_equipment.png';
 import passop from '../../assets/passop.png';
+import blog from '../../assets/Blog.png'
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -10,9 +11,15 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
+          src={blog}
+          link="https://blog-app-kkof.vercel.app/"
+          h3="Blog App"
+          p="Microblogging app"
+        />
+        <ProjectCard
           src={education}
-          link="https://github.com/TahsanX/Study-Help"
-          h3="Study Help"
+          link="https://github.com/TahsanX/AskAnything"
+          h3="Ask Anything"
           p="Education Platform and Q&A App"
         />
         <ProjectCard
@@ -23,10 +30,11 @@ function Projects() {
         />
         <ProjectCard
           src={passop}
-          link="https://github.com/Ade-mir/company-landing-page-2"
+          link="https://pass-op-dusky.vercel.app/"
           h3="PassOp"
           p="Password Management App"
         />
+        
       </div>
     </section>
   );
