@@ -24,7 +24,7 @@ function Projects() {
         />
         <ProjectCard
           src={lab_equipment}
-          link="https://github.com/TahsanX/Equipment_Management"
+          link="https://tahsanx.github.io/Portfolio-React/"
           h3="Lab Equipment Management"
           p="Lab Equipment Cost and Time Tracking"
         />
